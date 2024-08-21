@@ -2,6 +2,7 @@ package com.cashback;
 
 public class SimuladorCashBack {
     /**
+     * O erro está no 500, o valor não é contabilizado, então sempre retorna 0.0
      * Calcula o valor de cashback baseado no valor da compra e no grau de
      * fidelidade do cliente.
      * 
@@ -42,14 +43,13 @@ public class SimuladorCashBack {
         if (valorCompra <= 0) {
             descontoPorValor = 0.0;
         }
-        if (valorCompra < 100.00) {
+        if (valorCompra <= 100.00) {
             descontoPorValor = 0.05;
-        } else if (valorCompra >= 100.01 && valorCompra <= 500.00) {
+        } else if (valorCompra >= 100.01 && valorCompra < 500.00) {
             descontoPorValor = 0.10;
         } else if (valorCompra > 500.00) {
             descontoPorValor = 0.15;
         }
-
         desconto = valorCompra * (descontoPorGrau + descontoPorValor);
         return desconto;
     }
