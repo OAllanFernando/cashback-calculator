@@ -18,7 +18,7 @@ public static double calculaCashBack(double valorCompra, String grauFidelidade) 
 // Implementação do método
 }
 }
-
+```
 A aplicação alterou os parâmetros, para (double valorCompra, enum grauFidelidadeEnum) implicando uma mudança na estrutura dos testes.
 
 Foram testados os valores limite de cada partição de equivalencia definidos em:
@@ -40,4 +40,6 @@ com ajustes adicionais no cashback:
 ▪ Ouro: Aumento de 10% no percentual de cashback.
 2. O valor de cashback final deve ser calculado e apresentado ao cliente de
 forma clara.
+```
 
+O arquivo 
