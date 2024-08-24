@@ -42,4 +42,13 @@ com ajustes adicionais no cashback:
 forma clara.
 ```
 
-O arquivo 
+O arquivo testando-aplicacao-colega/src/test/java/cashback/CashbackTest.java
+
+Implementa 24 testes, desses apenas 5 passaram.
+
+Contudo é preciso resaltar casos como esses:
+
+![image](https://github.com/user-attachments/assets/b19b4d2e-96fd-430d-9992-77a811c93369)
+
+Mesmo com a tolerancia em 2 casas decimais o teste retornou negativo
+
