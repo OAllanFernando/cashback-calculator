@@ -1,15 +1,10 @@
-Aula pratica de testes
+## Relatório de Testes em Caixa Preta
 
-Disponibilizar uma aplicação de calculo de cashback para disponibilizar a um colega que testará em caixa preta. 
-disponibilizado na pasta calculator desse repositório
+A aplicação disponibilizada não seguiu as orientações de implementação especificadas no enunciado do exercício.
 
+Especificamente, foi especificado os parâmetros para o cálculo no seguinte formato:
 
-Relatório dos testes em caixa preta realizado na aplicação do colega
-
-A aplicação disponibilizada não seguiu as orientações de implementação disponibilizadas no enunciado do exercicio.
-
-Especificamente, foi especificado os parâmetros para o calculo
-'''
+```java
 public class SimuladorCashBack {
 /**
 * Calcula o valor de cashback baseado no valor da compra e no grau de
@@ -19,10 +14,7 @@ fidelidade do cliente.
 Ouro)
 * @return o valor de cashback calculado
 */
-public static double calculaCashBack(double valorCompra, String
-grauFidelidade) {
+public static double calculaCashBack(double valorCompra, String grauFidelidade) {
 // Implementação do método
 }
 }
-'''
-
